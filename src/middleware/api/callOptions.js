@@ -1,4 +1,4 @@
-import {UserService} from "./services/UserService";
+import {UserService} from "../../services/UserService";
 
 export const OptionCalls = (endpoint, method, data) => {
     const userPostServices = new UserService();
