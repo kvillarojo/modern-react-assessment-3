@@ -1,7 +1,7 @@
-import {UserService} from "../../services/UserService";
+import {JsonPlaceHolder} from "../services/JsonPlaceHolder";
 
-export const OptionCalls = (endpoint, method, data) => {
-    const userPostServices = new UserService();
+export const apiReducer = (endpoint, method, data) => {
+    const userPostServices = new JsonPlaceHolder();
           userPostServices.setEndpoint(endpoint);
 
     switch (method){

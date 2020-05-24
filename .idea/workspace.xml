@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1191fa26-2837-4971-aabb-47060b368f3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/AuthAPIRequest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware/api/callOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/apiReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/UserService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/JsonPlaceHolder.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +65,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/common/loaders" />
       <recent name="$PROJECT_DIR$/src/components/Post" />
       <recent name="$PROJECT_DIR$/src/helpers" />
-      <recent name="$PROJECT_DIR$/src/middleware/api" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -90,22 +115,45 @@
       <workItem from="1589652932097" duration="101000" />
       <workItem from="1589653053153" duration="862000" />
       <workItem from="1589656800938" duration="8000" />
+      <workItem from="1589764917325" duration="242000" />
+      <workItem from="1590309465887" duration="122000" />
+      <workItem from="1590315076547" duration="42000" />
+      <workItem from="1590315225512" duration="2630000" />
+      <workItem from="1590322355302" duration="32000" />
+      <workItem from="1590322440094" duration="5928000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="726" y="360" width="458" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588512382034">
+    <state x="726" y="360" width="559" height="385" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590324193548">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="726" y="360" width="559" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1590324193548" />
     <state x="726" y="360" width="458" height="385" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1588512382034" />
     <state x="533" y="338" width="524" height="497" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588904096667">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="2453" y="319" width="524" height="497" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1588474413011" />
     <state x="533" y="338" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1588904096667" />
+    <state x="811" y="374" width="424" height="482" key="FileChooserDialogImpl" timestamp="1590315116401">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="811" y="374" width="424" height="482" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1590315116401" />
     <state x="2389" y="189" key="SettingsEditor" timestamp="1589653033504">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

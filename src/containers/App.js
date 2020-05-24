@@ -32,7 +32,7 @@ class App extends React.Component {
                         <h1> Members </h1>
                         <div className={'container'}>
                             <div className={'ui cards'}>
-                               <UserDetail onSelectUser={this.handleProps}/>
+                                <UserDetail onSelectUser={this.handleProps}/>
                             </div>
                         </div>
                     </div>

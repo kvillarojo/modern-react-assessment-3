@@ -1,20 +1,18 @@
-import axios from "axios";
+import jsonAPI from "../api/api";
 
-const API_ROOT = 'https://jsonplaceholder.typicode.com/'
-
-export class UserService {
+export class JsonPlaceHolder {
 
 	constructor(url){
 		this.url = url
 	}
 
 	setEndpoint(endpoint){
-		this.url = (endpoint.indexOf(API_ROOT) === -1) ? API_ROOT + endpoint : endpoint
+		this.url = endpoint
 	}
 
 	get() {
 		try{
-			return axios.get(this.url)
+			return jsonAPI.get(this.url)
 				.then(response => response.data)
 		}catch(err){
 			throw new Error(err)
@@ -23,7 +21,7 @@ export class UserService {
 
 	post(data) {
 		try{
-			return axios.post(this.url, {
+			return jsonAPI.post(this.url, {
 				params: {
 					...data
 				}
@@ -36,7 +34,7 @@ export class UserService {
 
 	delete(data){
 		try {
-			return axios.delete(this.url)
+			return jsonAPI.delete(this.url)
 				.then(() => data)
 		}catch(err) {
 			throw new Error(err)

@@ -5,13 +5,13 @@ import {applyMiddleware, createStore} from 'redux'
 import reducers from './reducers'
 import thunk from 'redux-thunk'
 
-import api from "./middleware/api/api";
 import {BrowserRouter as Router} from "react-router-dom";
 import Root from "./containers/router";
+import AuthAPIRequest from "./middleware/AuthAPIRequest";
 
 const store = createStore(
     reducers,
-    applyMiddleware(thunk, api)
+    applyMiddleware(thunk, AuthAPIRequest)
 );
 
 ReactDOM.render(

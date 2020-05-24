@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import PostForm from "../common/Forms/postForm";
-import {PostModal} from "../common/Modals/PostModal";
 import {addUserPost} from "../action";
+import {PostModal} from "../common/Modals/PostModal";
+import PostForm from "../common/Forms/postForm";
 
 const AddPost = props => {
     let hasUser = !props.userID;
@@ -29,6 +29,7 @@ const AddPost = props => {
             {props.sendingRequest && <div className="ui blue message"> Adding new post...  </div> }
             {props.error &&  <div className="ui red message"> Failed to add post! </div>}
             {props.isAdded && <div className="ui green message"> Post added! </div> }
+
             <PostForm formDetails={onSubmit} />
         </PostModal>
     );

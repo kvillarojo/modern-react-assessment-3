@@ -1,5 +1,6 @@
-import {CALL_API} from "../../constants/actionTypes";
-import {OptionCalls} from "./callOptions";
+import {CALL_API} from "../constants/actionTypes";
+import {apiReducer} from "../api/apiReducer";
+
 
 export default store => next => action => {
     const callAPI = action[CALL_API]
@@ -36,7 +37,7 @@ export default store => next => action => {
     const [ requestType, successType, failureType ] = types
     next(actionWith({ type: requestType }))
 
-    return OptionCalls(endpoint, method, data).then(
+    return apiReducer(endpoint, method, data).then(
         response => next(actionWith({
             type: successType,
             data: response
